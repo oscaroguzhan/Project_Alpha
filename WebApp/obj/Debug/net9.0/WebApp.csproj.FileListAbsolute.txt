@@ -3,8 +3,6 @@
 /Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/bin/Debug/net9.0/WebApp.staticwebassets.runtime.json
 /Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/bin/Debug/net9.0/WebApp.staticwebassets.endpoints.json
 /Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/bin/Debug/net9.0/WebApp
-/Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/bin/Debug/net9.0/WebApp.deps.json
-/Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/bin/Debug/net9.0/WebApp.runtimeconfig.json
 /Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/bin/Debug/net9.0/WebApp.dll
 /Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/bin/Debug/net9.0/WebApp.pdb
 /Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/obj/Debug/net9.0/WebApp.GeneratedMSBuildEditorConfig.editorconfig
@@ -30,6 +28,8 @@
 /Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/obj/Debug/net9.0/WebApp.dll
 /Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/obj/Debug/net9.0/refint/WebApp.dll
 /Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/obj/Debug/net9.0/WebApp.pdb
+/Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/obj/Debug/net9.0/compressed/jern6vgvpx-8dg1ywlrdr.gz
+/Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/bin/Debug/net9.0/WebApp.deps.json
+/Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/bin/Debug/net9.0/WebApp.runtimeconfig.json
 /Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/obj/Debug/net9.0/WebApp.genruntimeconfig.cache
 /Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/obj/Debug/net9.0/ref/WebApp.dll
-/Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/obj/Debug/net9.0/compressed/jern6vgvpx-8dg1ywlrdr.gz

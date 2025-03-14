@@ -2,9 +2,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebApp.Controllers
 {
+    [Route("projects")]
     public class ProjectsController : Controller
     {
-        [Route("/projects")]
+        [Route("")]
         // GET: Projects
         public ActionResult Projects()
         {

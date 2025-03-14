@@ -8,7 +8,9 @@ namespace WebApp.Controllers
        
         public ActionResult Login()
         {
-            return View();
+            //FIXME - REDIRECT TO THE PROJECTS PAGE
+            //return View();
+            return LocalRedirect("/projects");
         }
 
     }

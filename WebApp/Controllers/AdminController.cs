@@ -11,6 +11,12 @@ namespace WebApp.Controllers
         {
             return View();
         }
+        [Route("clients")]
+        // GET: AdminController
+        public ActionResult Clients()
+        {
+            return View();
+        }
 
     }
 }

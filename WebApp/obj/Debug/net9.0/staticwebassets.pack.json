@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/images/Logo.svg"
     },
     {
+      "Id": "/Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/wwwroot/images/avatar1.svg",
+      "PackagePath": "staticwebassets/images/avatar1.svg"
+    },
+    {
       "Id": "/Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

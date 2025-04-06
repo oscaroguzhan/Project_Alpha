@@ -37,8 +37,8 @@
     --yellow-color-dark: #FCBB42;
     --blue-color: #2CD9D9;
     --blue-dark-dark: #2D7DCC;
-    --green-color: #31D482;
-    --green-color: #24B26B;
+    --green-color-light: #31D482;
+    --green-color-dark: #1a824e;
     --purple-color: #826AF9;
     --purple-color-dark: #826AF9;
     --btn-blue-text-color: var(--white-color);
@@ -56,6 +56,10 @@
     --navlink-background-color: transparent;
     --navlink-background-hover-color: var(--accent-color-10);
     --navlink-background-active-color: var(--accent-color-10);
+    --table-header-background-color: var(--white-200);
+    --table-header-text-color: #637085;
+    --table-tbody-tr-background-hover-color: var(--accent-color-10);
+    
     --text: var(--body-dark-color);
     --heading: var(--heading-color);
     --background: var(--background-color-dark);
@@ -243,6 +247,24 @@ h6 {
         background-color: var(--btn-gray-hover-color);
     }
 
+
+    /* statuses */
+    .success {
+        color: var(--green-color-dark) !important;
+        background-color: var(--green-color-light) !important;   
+    }
+    .error {
+        color: var(--red-color-dark) !important;
+        background-color: var(--red-color) !important;   
+    }
+    .warning {
+        color: var(--yellow-color-dark) !important;
+        background-color: var(--yellow-color) !important;   
+    }
+    .info {
+        color: var(--blue-dark-dark) !important;
+        background-color: var(--blue-color) !important;   
+    }
 /* list */
 
 /* components */
@@ -286,8 +308,83 @@ h6 {
             color: var(--navlink-text-active-color);
             background-color: var(--navlink-background-active-color);
         }
-
+/*badges */
+.badge {
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    
+}
 /* sections */
+#clients {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+/* lists */
+.client-list {
+    height: 100%;
+}
+
+.client-list table tr {
+    grid-template-areas: "check info location phone date status actions";
+    grid-template-columns: auto 3fr 3fr 2fr 2fr 2fr 50px;
+}
+
+.client-list .client-info {
+    display: grid;
+    grid-template-areas: "image name" "image email";
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+.client-list .client-info .client-image {
+    width: 48px;
+    height: 48px;
+   grid-area: image;
+}
+.client-list .client-info .client-name {
+    grid-area: name;
+    font-weight: var(--font-semibold);
+}
+
+.client-list .client-info .client-email {
+    grid-area: email;
+    color:var(--body-light-color);
+}
+
+/*  tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table tr {
+    display:grid;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 16px;
+}
+table tbody, table thead {
+    display: contents;
+}
+table thead > tr {
+    background-color: var(--table-header-background-color);
+    color: var(--table-header-text-color);
+}
+table tbody > tr {
+    padding: 0.7rem 1rem;
+    margin: 0.5rem 0;
+}
+table tbody > tr:hover {
+    background-color: var(--table-tbody-tr-background-hover-color);
+    color: var(--table-row-hover-text-color);
+}
+table th, table td {
+    width:100%;
+    padding: 0 1rem;
+    text-align: center;
+}
+
 
 /* views/pages */
 

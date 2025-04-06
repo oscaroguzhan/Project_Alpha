@@ -33,4 +33,4 @@
 /Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/obj/Debug/net9.0/WebApp.genruntimeconfig.cache
 /Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/obj/Debug/net9.0/ref/WebApp.dll
 /Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/obj/Debug/net9.0/compressed/9dpmi7en1g-1175nh8rdp.gz
-/Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/obj/Debug/net9.0/compressed/fspdjdrw69-xuhray3dnd.gz
+/Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/WebApp/obj/Debug/net9.0/compressed/fspdjdrw69-xbzeyh8qfk.gz

@@ -3,9 +3,9 @@
     <div class="modal-content">
         <div class="modal-header">
             <h3>Edit Client</h3>
-            <button class="btn-close" data-close="true"></button>
+            <button class="btn-close" data-close="true" type="button"></button>
         </div>
-        <form method="post" novalidate asp-action="EditClient" asp-controller="Admin">
+        <form method="post" novalidate asp-action="EditClient" asp-controller="Clients" >
             <input type="hidden" asp-for="ClientId" readonly/>
 
             <div class="image-previewer circle ">

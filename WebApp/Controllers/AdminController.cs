@@ -15,28 +15,6 @@ namespace WebApp.Controllers
         public IActionResult Clients()
         {
             return View();
-        }
-        [HttpPost]
-        
-        // POST: AdminController
-        public IActionResult AddClient(AddClientForm form)
-        {
-            if (!ModelState.IsValid)
-                return RedirectToAction("Clients");
-         
-            // If the model state is not valid, return the same view with validation errors
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult EditClient(AddClientForm form)
-        {
-            if (!ModelState.IsValid)
-                return RedirectToAction("Clients");
-         
-            // If the model state is not valid, return the same view with validation errors
-            return View();
-        }
-        
+        }   
     }
 }

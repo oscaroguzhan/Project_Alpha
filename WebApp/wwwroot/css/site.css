@@ -428,10 +428,11 @@ h6 {
     grid-template-rows: auto 1fr;
 }
 
-#addClientModal .modal-content {
+#addClientModal .modal-content, #addMemberModal .modal-content {
     width: 550px;
     
 }
+
 #editClientModal {
     display:none;
 }

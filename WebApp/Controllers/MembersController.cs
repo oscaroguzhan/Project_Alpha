@@ -1,41 +1,11 @@
-
-using Business.Models;
 using Microsoft.AspNetCore.Mvc;
-
+using Business.Models;
 namespace WebApp.Controllers
 {
-    public class ClientsController : Controller
+    public class MembersController : Controller
     {
-       // private readonly IClientService _clientService;
-         [HttpPost]
-        public  IActionResult AddClient(AddClientForm form)
-        {
-            if (!ModelState.IsValid)
-            {
-                // handle error
-                var errors = ModelState
-                    .Where(e => e.Value?.Errors.Count > 0)
-                    .ToDictionary(kvp => kvp.Key, kvp => kvp.Value?.Errors.Select(e => e.ErrorMessage).ToArray()
-                );
-                return BadRequest(new { success = false, errors });    
-            }
-            // send data to clientService
-            // var result = await _clientService.AddClientAsync(form);
-            // if (result)
-            // {
-            //     return Ok(new { success = true });
-            // }else 
-            // {
-            //     return Problem("Error adding client");
-            // }
-            return Ok(new { success = true });
-            
-            
-        }
-
         [HttpPost]
-        public IActionResult EditClient(EditClientForm form)
-        {
+        public IActionResult AddMember(AddMemberForm form) {
             if (!ModelState.IsValid)
             {
                 // handle error
@@ -43,21 +13,43 @@ namespace WebApp.Controllers
                     .Where(e => e.Value?.Errors.Count > 0)
                     .ToDictionary(kvp => kvp.Key, kvp => kvp.Value?.Errors.Select(e => e.ErrorMessage).ToArray()
                 );
-                return BadRequest(new { success = false, errors });    
+                return BadRequest(new { success = false, errors });
             }
 
-            // send data to clientService
-            // send data to clientService
-            // var result = await _clientService.UpdateClientAsync(form);
+            // send data to memberService
+            // var result = await _memberService.AddMemberAsync(form);
             // if (result)
             // {
             //     return Ok(new { success = true });
             // }else 
             // {
-            //     return Problem("Error update the client");
+            //     return Problem("Error adding member");
             // }
-            
             return Ok(new { success = true });
         }
-    }
+        [HttpPost]
+        public IActionResult EditMember(EditMemberForm form) {
+            if (!ModelState.IsValid)
+            {
+                // handle error
+                var errors = ModelState
+                    .Where(e => e.Value?.Errors.Count > 0)
+                    .ToDictionary(kvp => kvp.Key, kvp => kvp.Value?.Errors.Select(e => e.ErrorMessage).ToArray()
+                );
+                return BadRequest(new { success = false, errors });
+            }
+
+            // send data to memberService
+            // var result = await _memberService.AddMemberAsync(form);
+            // if (result)
+            // {
+            //     return Ok(new { success = true });
+            // }else 
+            // {
+            //     return Problem("Error adding member");
+            // }
+            return Ok(new { success = true });
+        }
+    }  
 }
+

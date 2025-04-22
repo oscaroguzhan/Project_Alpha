@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Business.Models;
 namespace WebApp.Controllers
 {
+
     [Route("admin")]
     public class AdminController : Controller
     {

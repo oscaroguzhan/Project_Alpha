@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YbYkrzaGn80=",
+  "dgSpecHash": "uYlT332UM3o=",
   "success": true,
-  "projectFilePath": "/Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/Business/Business.csproj",
+  "projectFilePath": "/Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/Business/Business.csproj",
   "expectedPackageFiles": [
     "/Volumes/T7/.nuget/packages/microsoft.aspnetcore/2.3.0/microsoft.aspnetcore.2.3.0.nupkg.sha512",
     "/Volumes/T7/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.3.0/microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",

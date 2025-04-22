@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/Business/Business.csproj": {}
+    "/Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/Business/Business.csproj": {}
   },
   "projects": {
-    "/Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/Business/Business.csproj": {
+    "/Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/Business/Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/Business/Business.csproj",
+        "projectUniqueName": "/Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/Business/Business.csproj",
         "projectName": "Business",
-        "projectPath": "/Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/Business/Business.csproj",
+        "projectPath": "/Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/Business/Business.csproj",
         "packagesPath": "/Volumes/T7/.nuget/packages/",
-        "outputPath": "/Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/Business/obj/",
+        "outputPath": "/Volumes/T7/Workspace/NETProjects/ASP.NET/Inlämningsuppgift/Alpha/Business/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Volumes/T7/.nuget/NuGet/NuGet.Config"
